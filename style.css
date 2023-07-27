@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    height: auto;
+    width: 100vw;
+    padding: 5% 0;
+    overflow-x: hidden;
+    background-image:url('./asset/wallpaper.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: auto;
+    width: 60vw;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 6px 20px rgb(210, 209, 209), -4px -6px 20px rgb(210, 209, 209);
+}
+
+h2{
+    margin: 1.5vh 0;
+}
+
+.operationPara{
+    display: initial;
+}
+
+div{
+    margin-top: 1vh;
+}
+button{
+    width: 100px;
+    border: 2px solid blue;
+    color: blue;
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
